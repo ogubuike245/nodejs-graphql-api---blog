@@ -1,0 +1,39 @@
+{
+  "dependencies": {
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-graphql": "^0.12.0",
+    "graphql": "^16.6.0",
+    "helmet": "^6.1.2",
+    "loadash": "^1.0.0",
+    "mongoose": "^7.0.3"
+  },
+  "name": "nodejs-graphql-blog-api",
+  "description": "This is a Node.js-based backend for a blog application that uses GraphQL as the query language. It provides an efficient and flexible way for clients to query and mutate blog data.",
+  "version": "1.0.0",
+  "main": "src/server.js",
+  "type": "module",
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "scripts": {
+    "dev": "nodemon -r dotenv/config src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ogubuike245/nodejs-graphql-blog-api.git"
+  },
+  "keywords": [
+    "api",
+    "graphql",
+    "blog"
+  ],
+  "author": "ogubuike emejuru",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ogubuike245/nodejs-graphql-blog-api/issues"
+  },
+  "homepage": "https://github.com/ogubuike245/nodejs-graphql-blog-api#readme"
+}
