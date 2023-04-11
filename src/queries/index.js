@@ -4,8 +4,8 @@ import resolvers from "../resolvers/index.js";
 const RootQuery = new GraphQLObjectType({
   name: "RootQueryType",
   fields: {
-    Post: resolvers.getSingleBlogPost,
-    Posts: resolvers.getAllBlogPosts,
+    post: resolvers.getSingleBlogPost,
+    posts: resolvers.getAllBlogPosts,
   },
 });
 

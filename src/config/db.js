@@ -9,7 +9,7 @@ export const connectToDatabaseAndStartServer = (app) => {
     // Start the application after database connection is established
 
     app.listen(API_PORT || 5000, (response) => {
-      console.info(`Server is running on PORT :${API_PORT}`);
+      console.info(`Server is running on PORT : ${API_PORT}`);
     });
   });
 

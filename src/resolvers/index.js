@@ -78,7 +78,6 @@ const updateBlogPost = {
     featured: { type: GraphQLBoolean },
   },
   resolve(parent, args) {
-    console.log(parent);
     const { id, title, content, category, snippet, featured } = args;
     const post = Blog.findByIdAndUpdate(
       { _id: id },
@@ -94,6 +93,7 @@ const updateBlogPost = {
       { new: true }
     );
 
+    console.log(post);
     return post;
   },
 };
